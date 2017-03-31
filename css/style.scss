@@ -1,0 +1,24 @@
+
+@import "branding_colors";
+@import "header";
+@import "sector_blocks"; 
+
+*{
+	box-sizing: border-box; 
+}
+
+img{
+	max-width: 100%; 
+}
+
+.container{
+	max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 20px; 
+}
+.container:after{
+	content: ' ';
+	display: table;
+	clear: both; 
+}
+

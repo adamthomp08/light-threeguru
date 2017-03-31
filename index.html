@@ -12,6 +12,8 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/three-guru-icons.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -20,12 +22,91 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="">
+                        <img src="\img\threeguru_header_logo.svg" alt="threeguru creative marketing agency logo" />
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="icon-button-home"></i></i>Home</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon-button-portfolio"></i></i>Portfolio</a>
+                            <ul>
+                                 <li><a href="#">Graphics Design</a></li>
+                                 <li><a href="#">Video Production</a></li>
+                                 <li><a href="#">Web Development</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon-button-aboutus"></i></i>About Us</a>
+                            <ul>
+                                 <li><a href="#">Strategic</a></li>
+                                 <li><a href="#">Creative</a></li>
+                                 <li><a href="#">Digital</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon-button-gurus"></i></i>The Gurus</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon-button-news"></i></i>News</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon-button-contactus"></i></i>Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="video-banner">
+            <video id="video_desktop" width="100%" height="auto" autoplay loop> 
+                <source src="/video/video_for_web1.mp4" type="video/mp4">
+                <!-- <source src="movie.ogg" type="video/ogg"> -->
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section class="homepage-sectors-background">
+            <div class="container">
+                <div class="sector-block">
+                    <i class="icon-strategic"></i>
+                    <h2>Strategic</h2>
+                    <p>Threeguru develop cost effective, well thought out strategic marketing plans to maximise resources and deliver the best return on investment for our local, national and multinational clients.</p>
+                    <a href="">Find out more</a>
+                </div>
+                <div class="sector-block">
+                    <i class="icon-creative"></i>
+                    <h2>Creative</h2>
+                    <p>Looking for a different approach? Let us work together to fully understand your objectives, develop a strategy and originate creative that delivers a competitive advantage.</p>
+                    <a href="">Find out more</a>
+                </div>
+                <div class="sector-block last">
+                    <i class="icon-digital"></i>
+                    <h2>Digital</h2>
+                    <p>Our digital gurus work closely with our team of creatives to deliver engaging brand experiences that seamlessly integrate the use of responsive websites, social and digital media.</p>
+                    <a href="">Find out more</a>
+                </div>
+            </div>
+         </section>
+
+        <footer class="main-footer">
+            
+        </footer>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <!-- Type Kit -->
+        <script src="https://use.typekit.net/wug1lkb.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
